@@ -1,0 +1,11 @@
+{
+  "plugins": ["syntax-dynamic-import", "transform-runtime"],
+  "presets": ["env", "react", "flow"],
+  "env": {
+    "test": {
+      "presets": ["env", "react"],
+      "plugins": ["syntax-dynamic-import", "transform-runtime", "transform-class-properties"]
+    }
+  }
+}
+
