@@ -1,5 +1,7 @@
-import React from 'react';
+import React from "react";
 
-const FOO = () => {return (<h1>My first react component</h1>) };
+const FOO = props => {
+  return <h1>{props.children}</h1>;
+};
 
-
+export default FOO;
